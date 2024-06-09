@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Title of the app
+st.write("22AIA-CODE-HUNTERS")
 st.title("k-Nearest Neighbour (k-NN) Classification of Iris Dataset")
 
 # Manually load Iris dataset

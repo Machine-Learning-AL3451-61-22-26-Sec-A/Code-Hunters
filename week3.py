@@ -1,4 +1,4 @@
-st.write("22AIA-CODE-HUNTERS")
+
 import streamlit as st
 import numpy as np
 
@@ -37,6 +37,7 @@ def main():
     # Input form for dataset
     st.subheader("Enter Dataset")
     dataset_input = st.text_area("Enter dataset (one row per line)", "0.1, 0.2\n0.3, 0.4")
+    st.write("22AIA-CODE-HUNTERS")
 
     # Print dataset button
     if st.button("Print Dataset"):

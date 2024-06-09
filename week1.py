@@ -20,9 +20,9 @@ def candidate_elimination(examples):
     return specific_h, general_h
 
 def main():
+    st.write(" 22AIA - CODE HUNTERS ")
     st.title("Candidate Elimination Algorithm")
     st.write("Enter examples in the form of weather conditions (Outlook, Temperature, Humidity, Windy) and the corresponding sport decision (Yes/No).")
-    st.write(" 22AIA - CODE HUNTERS ")
     examples = st.text_area("Enter examples separated by newline", "Sunny, Hot, High, False, No\nSunny, Hot, High, True, No\nOvercast, Hot, High, False, Yes\nRain, Mild, High, False, Yes\nRain, Cool, Normal, False, Yes\nRain, Cool, Normal, True, No\nOvercast, Cool, Normal, True, Yes\nSunny, Mild, High, False, No\nSunny, Cool, Normal, False, Yes\nRain, Mild, Normal, False, Yes\nSunny, Mild, Normal, True, Yes\nOvercast, Mild, High, True, Yes\nOvercast, Hot, Normal, False, Yes\nRain, Mild, High, True, No")
     examples = [example.strip().split(", ") for example in examples.split("\n")]
 

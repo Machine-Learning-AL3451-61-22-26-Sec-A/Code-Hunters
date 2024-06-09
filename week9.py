@@ -20,6 +20,7 @@ def locally_weighted_regression(X, y, x_query, tau):
     return np.dot(x_query_, theta)
 
 # Streamlit App
+st.write("22AIA-CODE-HUNTERS")
 st.title("Locally Weighted Regression")
 
 # Upload dataset

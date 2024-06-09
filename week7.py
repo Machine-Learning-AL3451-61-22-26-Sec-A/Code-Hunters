@@ -43,6 +43,7 @@ def em(X, num_clusters, max_iter=100, reg_param=1e-6):
     return labels, means, covariances
 
 # Load the data
+st.write("22AIA-CODE-HUNTERS")
 st.title('EM Algorithm and k-Means Clustering Comparison')
 
 # Sample data

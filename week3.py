@@ -29,6 +29,7 @@ class NeuralNetwork:
 
 # Streamlit app
 def main():
+    st.write("22AIA-CODE-HUNTERS")
     st.title("Neural Network Backpropagation Demo")
 
     # Initialize neural network
@@ -37,7 +38,7 @@ def main():
     # Input form for dataset
     st.subheader("Enter Dataset")
     dataset_input = st.text_area("Enter dataset (one row per line)", "0.1, 0.2\n0.3, 0.4")
-    st.write("22AIA-CODE-HUNTERS")
+    
 
     # Print dataset button
     if st.button("Print Dataset"):
